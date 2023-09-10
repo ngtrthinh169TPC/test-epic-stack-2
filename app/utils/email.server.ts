@@ -31,7 +31,7 @@ export async function sendEmail({
 	| { html: string; text: string; react?: never }
 	| { react: ReactElement; html?: never; text?: never }
 )) {
-	const from = 'hello@epicstack.dev'
+	const from = 'test-epic-stack-2-fdb4.fly.dev'
 
 	const email = {
 		from,
